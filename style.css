@@ -157,3 +157,13 @@ nav i {
   width: 90%;
   transform: rotateX(50deg);
 }
+.rght-two h1{
+  color: #fff;
+  font-size: 5vw;
+}
+
+.rght-two p{
+  font-size: 1vw;
+  color: #fff;
+  width: 80%;
+}
