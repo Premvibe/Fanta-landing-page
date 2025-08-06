@@ -51,7 +51,7 @@ nav {
 }
 
 nav a, i {
-  font-size: 1vw;
+  font-size: 1.2vw;
   text-decoration: none;
   color: #fff;
 }
@@ -108,21 +108,30 @@ nav i {
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 #leaf{
+  top: 10%;
+  left: 0%;
+  transform: rotate(60deg);
   position: absolute;
-  width: 20%;
+  width: 18%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
-#leaf2 {
+
+#leaf2{
+  top: 70%;
+  left: 80%;
+  transform: rotate(-90deg);
   position: absolute;
-  width: 20%;
+  width: 12%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
+
 #leaf3{
   position: absolute;
-  top: 0%;
-  
   width: 20%;
-
+  top: 10%;
+  right: 0%;
 }
 
 
@@ -131,4 +140,20 @@ nav i {
   width: 100%;
   height: 100vh;
   background:#4d231c ;
+}
+
+.lft-two, .rght-two{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5vh;
+  width: 50%;
+  height: 100%;
+}
+
+.lft-two svg{
+  margin-top: 50vh;
+  width: 90%;
+  transform: rotateX(50deg);
 }
